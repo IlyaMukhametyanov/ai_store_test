@@ -1,5 +1,4 @@
-# ai_store_frontend_web
-
+# ai_store_frontend_w
 
 ## Getting started
 
