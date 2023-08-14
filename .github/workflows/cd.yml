@@ -18,7 +18,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Deploy using ssh
-      uses: appleboy/ssh-action@v0.1.4
+      uses: appleboy/ssh-action@v1.0.0
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
@@ -26,8 +26,7 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          cd ~/home/danielwetan/apps/node1
+          cd ~/home/node1
           git pull origin master
           git status
           npm install --only=prod
-          pm2 restart node1
