@@ -24,7 +24,7 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          cd /testing
+          cd ~/testing
           mkdir tetsin
       # git pull origin main
     #  git status
