@@ -27,4 +27,4 @@ jobs:
           cd ~/node1/ai_store_test
           git pull origin main
           git status
-          npm install --only=prod
+        #  npm install --only=prod
