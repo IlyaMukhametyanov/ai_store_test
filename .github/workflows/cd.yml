@@ -18,11 +18,12 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Deploy using ssh
-      uses: appleboy/ssh-action@master
+      uses: appleboy/ssh-action@v0.1.4
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY}}
+        key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
           cd ~/home/danielwetan/apps/node1
