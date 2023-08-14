@@ -24,8 +24,7 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          cd ~/testing
-          mkdir tetsin
-      # git pull origin main
-    #  git status
-  #     npm install --only=prod
+          cd ~/node1/ai_store_test
+          git pull origin main
+          git status
+          npm install --only=prod
