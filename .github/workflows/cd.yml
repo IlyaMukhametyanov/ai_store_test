@@ -24,7 +24,7 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          cd ~/home/node1
+          cd ~/home/llyaMukhametyanov/apps/ai_store_test
           git pull origin master
           git status
           npm install --only=prod
