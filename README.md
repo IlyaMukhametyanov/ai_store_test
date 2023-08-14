@@ -1,4 +1,4 @@
-# ai_store_frontend_tes
+# ai_store_frontend_test
 
 ## Getting started
 
