@@ -1,4 +1,4 @@
-# ai_store_frontend_w
+# ai_store_frontend
 
 ## Getting started
 
