@@ -24,4 +24,4 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          whoami
+          mkdir testing
