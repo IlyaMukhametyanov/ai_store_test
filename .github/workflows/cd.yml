@@ -25,7 +25,7 @@ jobs:
         passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         port: 22
         script: |
-          cd "../node1"
+          cd "../node1/ai_store_test"
           ls
         #git pull origin main
         #git status
